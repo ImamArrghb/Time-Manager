@@ -15,7 +15,6 @@
 - 🎮 **Gamification System**: Dapatkan XP dan naikkan Level (dari *Novice* hingga *Master*) setiap menyelesaikan tugas.
 - 🤖 **AI Smart Coach**: Terintegrasi dengan **Llama-3 (via Groq)** yang memberikan saran produktivitas personal berdasarkan jadwalmu.
 - 📱 **PWA (Progressive Web App)**: Bisa diinstall langsung di Android, iOS, dan Desktop layaknya aplikasi native.
-- 📸 **Dokumentasi Visual**: Upload bukti foto kegiatanmu langsung ke cloud.
 - 🔐 **Secure Authentication**: Login aman menggunakan Email Magic Link / Password dengan verifikasi Supabase.
 - 🌓 **Dark Mode**: Tampilan responsif yang nyaman di mata.
 
@@ -73,10 +72,8 @@ Table: todos
 2. user_id (uuid, foreign key)
 3. title (text)
 4. is_completed (boolean)
-5. image_url (text, nullable)
 
 🤝 Kontribusi
-
 Project ini dibuat untuk tujuan pembelajaran dan portofolio. Kritik dan saran sangat diterima!
 
 Dibuat dengan ❤️ oleh Imam 
