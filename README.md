@@ -1,4 +1,4 @@
-# 🚀 LevelUp: AI Productivity App
+# 🚀 One Day: AI Productivity App
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
@@ -6,7 +6,7 @@
 ![Groq AI](https://img.shields.io/badge/AI-Llama3-orange)
 ![PWA](https://img.shields.io/badge/PWA-Supported-purple)
 
-**LevelUp** (sebelumnya Time Manager) adalah aplikasi manajemen waktu berbasis **Gamifikasi** dan **Artificial Intelligence**. Aplikasi ini dirancang untuk membantu pengguna mengelola jadwal harian mereka dengan pendekatan "RPG", di mana setiap tugas yang selesai memberikan XP (Experience Points) untuk menaikkan level karakter.
+**One Day** (sebelumnya Time Manager) adalah aplikasi manajemen waktu berbasis **Gamifikasi** dan **Artificial Intelligence**. Aplikasi ini dirancang untuk membantu pengguna mengelola jadwal harian mereka dengan pendekatan "RPG", di mana setiap tugas yang selesai memberikan XP (Experience Points) untuk menaikkan level karakter.
 
 > *"Setiap hari adalah hari pertama kamu."*
 
