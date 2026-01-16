@@ -37,39 +37,46 @@ Ikuti langkah ini untuk menjalankan aplikasi di komputer kamu:
    cd nama-repo
 
 2. Install Dependencies
+    ```bash
    npm install
 
 3. Setup Environment Variables Buat file .env.local di folder root
-NEXT_PUBLIC_SUPABASE_URL=[https://your-project.supabase.co](https://your-project.supabase.co)
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key-here
-GROQ_API_KEY=your-groq-api-key
+    ```bash
+   NEXT_PUBLIC_SUPABASE_URL=[https://your-project.supabase.co](https://your-project.supabase.co)
+    NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key-here
+   GROQ_API_KEY=your-groq-api-key
 
 4. Jalankan Server
-npm run dev
-Buka http://localhost:3000 di browser.
+    ```bash
+   npm run dev
+   Buka http://localhost:3000 di browser.
 
 📱 Cara Install di HP (PWA)
+
 Aplikasi ini sudah mendukung PWA. Untuk menginstall:
 1. Buka website aplikasi di Chrome (Android) atau Safari (iOS).
 2. Android: Klik titik tiga pojok kanan atas -> Pilih "Install App".
 3. iOS: Klik tombol Share -> Pilih "Add to Home Screen".
 
 🗄️ Struktur Database (Supabase)
+
 Aplikasi ini membutuhkan tabel todos dan profiles di Supabase.
 Table: profiles
-id (uuid, primary key)
-email (text)
-xp (int8)
-level (text)
-role (text)
+1. id (uuid, primary key)
+2. email (text)
+3. xp (int8)
+4. level (text)
+5. role (text)
 
 Table: todos
-id (int8, primary key)
-user_id (uuid, foreign key)
-title (text)
-is_completed (boolean)
-image_url (text, nullable)
+1. id (int8, primary key)
+2. user_id (uuid, foreign key)
+3. title (text)
+4. is_completed (boolean)
+5. image_url (text, nullable)
 
 🤝 Kontribusi
+
 Project ini dibuat untuk tujuan pembelajaran dan portofolio. Kritik dan saran sangat diterima!
+
 Dibuat dengan ❤️ oleh Imam 
